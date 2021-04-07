@@ -3,6 +3,8 @@
 ## Project Roadmap
 In this project we use JavaScript, HTML, and CSS to create a custom webpage that will showcase different UFO sightings around the world. I help Dana create a webpage to show UFO sightings across the US. The webpage has various filters for users to find UFO data that may be of interest to them using their text input. We took data from a JavaScript file in JSON format and linked it with our web page to provide the data.
 
+View Live Demo - https://eric0rtega.github.io/UFOs/
+
 ## Tasks
 - Create a webpage to showcase UFO sight data.
 - Create input text fields and filters for user input.
