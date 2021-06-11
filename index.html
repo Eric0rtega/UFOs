@@ -17,10 +17,9 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
+                    
+                <div class="col-md-12">
                     <h4>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h4>
-                </div>
-                <div class="col-md-8">
                     <p>Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our sky-searching with data analysis.<br/><br/>
 
                         "The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely helpful for us in our search for aliens—and in helping us celebrate the work that has already been done, such as this data visualization project, which will help us raise awareness of the ubiquity of sightings!"<br/><br/>
@@ -34,36 +33,39 @@
         
         <div class="container-fluid">
             <div class="row">
-              <div class="col-md-3">
-                <form class="bg-dark">
-                    <p>Filter Search</p>
-                    <ul class="list-group bg-dark">
-                        <li class="list-group-item bg-dark">
+                <div class="col-md-12">
+                <form class="bg-dark form-custom">
+                    <p class="filter-header">Filter Search</p>
+                    <ul class="list-group bg-dark ul-custom">
+                        <li class="list-group-item bg-dark li-custom">
                             <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
+                            <input type="text" placeholder="1/10/2010" id="datetime" class="input-custom"/>
                         </li>
-                        <li class="list-group-item bg-dark">
+                        <li class="list-group-item bg-dark li-custom">
                             <label for="date">Enter a City</label>
-                            <input type="text" placeholder="roswell" id="city" />
+                            <input type="text" placeholder="roswell" id="city" class="input-custom"/>
                         </li>
-                        <li class="list-group-item bg-dark">
+                        <li class="list-group-item bg-dark li-custom">
                             <label for="date">Enter a State</label>
-                            <input type="text" placeholder="ca" id="state" />
+                            <input type="text" placeholder="ca" id="state" class="input-custom"/>
                         </li>
-                        <li class="list-group-item bg-dark">
+                        <li class="list-group-item bg-dark li-custom">
                             <label for="date">Enter a Country</label>
-                            <input type="text" placeholder="us" id="country" />
+                            <input type="text" placeholder="us" id="country" class="input-custom"/>
                         </li>
-                        <li class="list-group-item bg-dark">
+                        <li class="list-group-item bg-dark li-custom">
                             <label for="date">Enter a Shape</label>
-                            <input type="text" placeholder="circle" id="shape" />
+                            <input type="text" placeholder="circle" id="shape" class="input-custom"/>
                         </li>
                     </ul>
                 </form>
-              </div>
-
-            <div class="col-md-9">
-                <table class="table table-striped">
+                </div>
+                </div>
+                </div>
+<div class="container-fluid">
+    <div class="row">
+            <div class="col-md-12 col-12-custom">
+                <table id="table-scroll" class="table table-striped">
                     <thead>
                       <tr>
                         <th>Date</th>
@@ -78,6 +80,14 @@
                     <tbody></tbody>
                 </table>
             </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 footer">
+                    <p class="footer-text">&copy Eric Ortega 2020</p>
+                </div>
             </div>
         </div>
     </div>

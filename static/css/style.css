@@ -6,4 +6,71 @@ body {
     background-image: url("../images/nasa.jpg");
     background-size: 100% 100%;
     text-align: center;
-  }
+}
+
+.col-md-12, .col-md-12 table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-12-custom {
+    overflow-y: scroll;
+    height: 50vh;
+    margin: 50px 0;
+    width: 80%;
+    padding: 10px;
+}
+
+form ul li {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+}
+
+p, h4 {
+    line-height: 2.5;
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+.ul-custom {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-custom {
+    width: 20%;
+}
+
+.input-custom {
+    width: 100%;
+}
+
+.form-custom {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.filter-header {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+}
+
+.footer-text {
+    text-align: center;
+}
